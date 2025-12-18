@@ -1,0 +1,32 @@
+body {
+margin: 0;
+background: transparent;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+
+#overlay {
+display: flex;
+gap: 24px;
+padding: 10px 20px;
+}
+
+
+.stat {
+color: white;
+text-align: center;
+text-shadow: 0 0 6px rgba(0,0,0,0.8);
+}
+
+
+.label {
+display: block;
+font-size: 14px;
+opacity: 0.8;
+}
+
+
+.stat span:not(.label) {
+font-size: 26px;
+font-weight: bold;
+}
